@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/deputados
+    username: deputados
+    password: deputados
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  error:
+    include-message: always
